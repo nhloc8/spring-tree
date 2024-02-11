@@ -9,7 +9,7 @@ SUN_RADIUS = 40
 MAGIC = 12
 
 
-class FloweringTree:
+class SpringTree:
     def __init__(self):
         self.petal_count = 0
         self.petal_left_border = 0.0
@@ -151,6 +151,7 @@ class FloweringTree:
 
 
 if __name__ == '__main__':
-    flowering_tree = FloweringTree()
-    flowering_tree.draw()
+    spring_tree = SpringTree()
+    spring_tree.draw()
+    
     
