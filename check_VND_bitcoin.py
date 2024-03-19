@@ -20,7 +20,7 @@ def main():
         else:
             print("Unable to fetch BTC price.")
 
-        time.sleep(10)  # Chờ 10 giây trước khi cập nhật giá
+        time.sleep(10)  
 
 if __name__ == "__main__":
     main()
